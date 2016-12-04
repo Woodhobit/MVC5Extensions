@@ -6,12 +6,12 @@ Extensions for unsing in ASP.NET MVC 5
 
 Add the following markup (the _Layout.cshtml is the best place)
 
- @if (TempData.GetAlerts().Any())
+ if (TempData.GetAlerts().Any())
 {
     <div class="alert-container">
-        @foreach (var alert in TempData.GetAlerts())
+        foreach (var alert in TempData.GetAlerts())
         {
-            <div class="alert @alert.AlertClass alert-dismissable">
+            <div class="alert alert.AlertClass alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert"
                         aria-hidden="true">
                     &times;
