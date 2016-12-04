@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Alerts\Alert.cs" />
     <Compile Include="Alerts\AlertDecoratorResult.cs" />
+    <Compile Include="Alerts\AlertExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
